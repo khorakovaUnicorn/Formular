@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+}
+
+#userList {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+

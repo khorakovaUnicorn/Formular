@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulář</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to our example form app!</h1>
+    <p>Please use the register form</p>
+
+    <form>
+        <input id="name" type="text" placeholder="Enter username...">
+        <p id="name_error" style="display: none; color: red">Enter value between 4 and 64 characters!</p>
+        <input id="password" type="password" placeholder="Enter password...">
+        <p id="password_error" style="display: none; color: red">Enter value between 8 and 64 characters!</p>
+        <input id="confirmPassword" type="password" placeholder="Confirm password...">
+        <p id="confirmPassword_error" style="display: none; color: red">Value are not equal!</p>
+        <input id="email" type="text" placeholder="Enter e-mail...">
+        <p id="email_error" style="display: none; color: red">Enter valid value!</p>
+        <input id="date" type="date">
+        <button id="submit" type="submit">Register</button>
+    </form>
+
+    <h2>User list</h2>
+    <div id="userList">Empty</div>
+
+<script src="script.js"></script>
+</body>
+</html>
